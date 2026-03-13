@@ -1,0 +1,41 @@
+.card{
+    height: 570px;
+    width:450px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 1.7;
+    border-radius:15px;
+    box-shadow: 0px 0px 10px rgba(110, 110, 110, 0.862);
+}
+.card .img img{
+    height:300px;
+}
+.card .dets{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 2;
+}
+.card .dets h1{
+    font-size:2.5rem;
+    color:black;
+}
+.card .dets h5{
+    font-size:1.5rem;
+    font-weight: 700;
+    color:grey;
+}
+.card .dets h4{
+    color:green;
+    font-size:1.5rem;
+    font-weight: 700;
+    
+}
+.card button{
+    padding:10px 20px;
+    background-color: rgb(59, 59, 239);
+    font-size: 25px;
+    border-radius:10px;
+}
